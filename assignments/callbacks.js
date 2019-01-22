@@ -20,7 +20,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
   });
 
 */
-
+console.log("BEGGINING OF CALL BACKS SECTION================");
 
 
       //=======Return the length...
@@ -114,3 +114,7 @@ function removeDuplicates(array, cb) {
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
 }
+
+
+
+console.log("END OF CALL BACKS SECTION================");
