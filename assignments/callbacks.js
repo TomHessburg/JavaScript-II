@@ -109,11 +109,31 @@ console.log(contains('pencil', items, isItHere)); //evaluates to false... could 
 
 /* STRETCH PROBLEM */
 
+let numsArr = [1,2,2,3,4,4,4,4,5,6,7,7,8,9,9,9,9,10]
+
 function removeDuplicates(array, cb) {
   // removeDuplicates removes all duplicate values from the given array.
   // Pass the duplicate free array to the callback function.
   // Do not mutate the original array.
+
+  return cb(array)
 }
+
+
+
+function remover (array){
+
+  let newAr = array.filter(function(item, index){
+    return array.indexOf(item) >= index;
+  })
+
+  return newAr;
+}
+
+console.log(numsArr);
+console.log(removeDuplicates(numsArr, remover));
+
+
 
 
 
