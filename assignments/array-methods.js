@@ -82,6 +82,3 @@ console.log(ticketPriceTotal);
 
 // Problem 3
 
-
-
-//for pull request
