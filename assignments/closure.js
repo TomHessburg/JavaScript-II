@@ -1,3 +1,5 @@
+console.log(" ");
+console.log("===CLOSURES ");
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 function simpleClosure (){
@@ -65,3 +67,8 @@ const counterFactory = () => {
   // `increment` should increment a counter variable in closure scope and return it.
   // `decrement` should decrement the counter variable and return it.
 };
+
+
+
+console.log("===END CLOSURES ");
+console.log(" ");
